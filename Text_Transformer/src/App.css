@@ -1,0 +1,25 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(68, 68, 255);
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(25, 25, 255);
+}
